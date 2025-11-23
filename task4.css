@@ -10,6 +10,7 @@ body {
     background-size: cover;
     background-color: white;
     transition: 0.3s ease;
+    scrollbar-width: none;
 }
 
 ul{
@@ -95,4 +96,52 @@ h1{
     background: hsl(162, 84%, 61%);
     transition: 0.1s;
     
+}
+/* mmm kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk*/
+.item{
+    background-color: rgba(255, 219, 101, 0.571);
+    display: flex;
+    margin-top: 160px;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border: 3px solid transparent;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+.m1 a{
+    display:block;
+    color: #333;
+    font-size: medium;
+    font-weight: bold;
+    border:3px solid cadetblue;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: azure;
+    margin-top: 20px;
+}
+.m1 a:hover{
+    color: hsl(349, 91%, 46%);
+    transition: 0.2s;
+}
+.m1 a:active{
+    color: dodgerblue;
+    transition: 0.1s;
+}
+.m1 a::before{
+    color: #25d366;
+    transition: 0.1s;
+}
+
+.m2 a{
+    display:block;
+    color: #333;
+    font-size: medium;
+    font-weight: bold;
+    border:3px solid cadetblue;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: azure;
+    margin-top: 20px;
 }
